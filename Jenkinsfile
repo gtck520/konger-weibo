@@ -21,8 +21,8 @@ pipeline {
             }
             steps {
                 script{
-                  docker.withRegistry('https://registry.cn-chengdu.aliyuncs.com','aliyun'){ //这个aliyun是我们全局凭据的ID
-                      def customImage = docker.build("donjan/storage:${env.BRANCH_NAME}-${env.GIT_COMMIT}")
+                  docker.withRegistry('https://registry.cn-hangzhou.aliyuncs.com','aliyun'){ //这个aliyun是我们全局凭据的ID
+                      def customImage = docker.build("konger-weibo/weibo:${env.BRANCH_NAME}-${env.GIT_COMMIT}")
                       customImage.push() //推送镜像
                       customImage.push('latest') //推送一个latest的镜像
                   }
