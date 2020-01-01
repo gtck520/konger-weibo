@@ -9,10 +9,11 @@ pipeline {
         }
         stage('Test') { //执行测试
             // agent { dockerfile true }
-            // steps {
-            //     sh 'cd /app && vendor/bin/phpunit'
-            // }
-            echo "test"
+            steps {
+                //sh 'cd /app && vendor/bin/phpunit'
+                echo "test"
+            }
+
         }
         stage('Deploy') { //发布到仓库
             agent {
