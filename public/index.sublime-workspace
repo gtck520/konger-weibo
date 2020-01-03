@@ -1,0 +1,996 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"Imu",
+				"ImUserModel"
+			],
+			[
+				"con",
+				"config.php"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"a",
+				"array\t$… = array (…)"
+			],
+			[
+				"va",
+				"$value〔variable〕"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"sl",
+				"$slaveid〔variable〕"
+			],
+			[
+				"pr",
+				"preg_match"
+			],
+			[
+				"f",
+				"for\tfor …"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"che",
+				"checkFood"
+			],
+			[
+				"检查",
+				"检查食物是否为带皮带壳食物"
+			],
+			[
+				"app",
+				"app\\common\\controller"
+			],
+			[
+				"php",
+				"phpinfo〔function〕"
+			],
+			[
+				"input",
+				"input_html〔variable〕"
+			],
+			[
+				"B",
+				"BASE_DIR"
+			],
+			[
+				"_",
+				"__name__"
+			],
+			[
+				"n",
+				"numbers"
+			],
+			[
+				"st",
+				"string"
+			],
+			[
+				"p",
+				"print_two"
+			],
+			[
+				"t",
+				"truncate〔function〕"
+			],
+			[
+				"fi",
+				"filename"
+			],
+			[
+				"ca",
+				"cars_driven〔variable〕"
+			],
+			[
+				"cars_",
+				"cars_not_driver"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"get",
+				"getToken"
+			],
+			[
+				"mo",
+				"mobileId"
+			],
+			[
+				"the",
+				"then"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"ge",
+				"getCaptcha"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"co",
+				"controller"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/G/konger/myphp/wwwtest/study/redis/docker-compose.yml",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/config/app.php",
+			"settings":
+			{
+				"buffer_size": 878,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/model/ImUser.php",
+			"settings":
+			{
+				"buffer_size": 133,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/controller/User.php",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/middleware.php",
+			"settings":
+			{
+				"buffer_size": 250,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/http/CrossDomain.php",
+			"settings":
+			{
+				"buffer_size": 677,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/vue/NIM_Web_Demo_H5-master/src/regist.js",
+			"settings":
+			{
+				"buffer_size": 2283,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/vue/NIM_Web_Demo_H5-master/src/configs/index.js",
+			"settings":
+			{
+				"buffer_size": 1254,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/E/TSBrowserDownloads/php 2.0/demoServerAPI.php",
+			"settings":
+			{
+				"buffer_size": 3750,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/helper/ServerAPI.php",
+			"settings":
+			{
+				"buffer_size": 42504,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/app/BaseController.php",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/G/konger/mytp5/route/app.php",
+			"settings":
+			{
+				"buffer_size": 731,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"sethtm",
+				"UI: Select Theme"
+			]
+		],
+		"width": 540.0
+	},
+	"console":
+	{
+		"height": 150.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp =sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/'+ pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/G/konger/myphp/wwwtest/study/redis/aboutmain.html",
+		"/G/konger/myphp/wwwtest/study/redis/about.html",
+		"/E/TSBrowserDownloads/php 2.0/ServerAPI.php",
+		"/G/konger/mytp5/app/http/middleware.php",
+		"/G/konger/mytp5/config/database.php",
+		"/G/konger/mytp5/public/index.php",
+		"/G/konger/mytp5/app/common.php",
+		"/G/konger/mytp5/config/app.php",
+		"/G/konger/vue/NIM_Web_Demo_H5-master/src/login.js",
+		"/G/php大神进阶/tp5.1/03.TP框架-TP5进阶技术-Shine York老师/02.项目/04.第四节-商城权限设计-单元测试/源码/tp_shop/model/Test.php",
+		"/G/konger/vue/NIM_Web_Demo_H5-master/package.json",
+		"/G/konger/mytp5/application/user/controller/User.php",
+		"/G/konger/myphp/wwwtest/test.php",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/dist/debug/GenerateTestUserSig.js",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/src/main.js",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/src/index.vue",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/v1.7.x/js/msg/receive_friend_system_msg.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/store/store.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/debug/GenerateTestUserSig.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/app.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/pages/index/main.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/pages/login/main.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/src/App.vue",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/src/pages/login/index.vue",
+		"/D/360极速浏览器下载/plugin_example_ide/pages/login/login.vue",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/src/pages/chat/index.vue",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/src/main.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/src/pages/login/main.js",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/public/index.html",
+		"/G/php大神进阶/redis/02.redis/7.docker-compose及redis哨兵机制/源码/07/docker-compose.yaml",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/store/reducer.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/controller/im.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/controller/netcall.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/config/envConfig.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/project.config.json",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/app.js",
+		"/E/TSBrowserDownloads/NIM_Web_Demo_H5-master/dist/debug/vconsole.min.js",
+		"/E/TSBrowserDownloads/NIM_Web_Demo_H5-master/src/pages/Chat.vue",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/pages/contact/contact.js",
+		"/E/TSBrowserDownloads/NIM_Web_Weapp_Demo-master/redux/connect.js",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/src/tim.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/sdk/tim-wx.js",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/pages/login/main.wxml",
+		"/D/360极速浏览器下载/TIMSDK-master/WXMini/dist/wx/pages/login/index.vue.wxml",
+		"/D/360极速浏览器下载/TIMSDK-master/H5/dist/index.html",
+		"/G/php大神进阶/redis/02.redis/7.docker-compose及redis哨兵机制/笔记/性能优化-docker-compose.md",
+		"/D/360极速浏览器下载/07/docker-compose.yaml",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Xdebug.sublime-settings",
+		"/G/konger/mytp5/public/index.sublime-project",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Xdebug Client/Xdebug.sublime-settings",
+		"/G/konger/mytp5/public/index.sublime-workspace",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/G/php大神进阶/wwwtest/test.php",
+		"/G/konger/mytp5/thinkphp/library/think/Config.php",
+		"/G/konger/mytp5/thinkphp/base.php",
+		"/G/konger/mytp5/config/log.php",
+		"/G/php大神进阶/redis/02.redis/4.redis主从详解及相关问题解决/源码/04/monitor.php",
+		"/G/php大神进阶/redis/02.redis/4.redis主从详解及相关问题解决/源码/04/config.php",
+		"/G/php大神进阶/redis/01.docker/2.docker命令升级，构建docker环境/测试文件/nginx/Dockerfile",
+		"/D/wamp/bin/mysql-5.7.27-winx64/data/TBO7U2DR9SE4UZG.err",
+		"/G/php大神进阶/笔试面试突击/魔鬼训练营-Pack老师/03.魔鬼训练营-第三节课/0130-高并发",
+		"/G/php大神进阶/redis/01.docker/2.docker命令升级，构建docker环境/测试文件/php/Dockerfile",
+		"/G/php大神进阶/redis/01.docker/3.docker网络模式说明、redis主从复制构建/源码/03/redis/Dockerfile",
+		"/G/php大神进阶/mysql优化/02.第二节--物化视图,事务/源码/物化视图.sql",
+		"/G/konger/mytp5/thinkphp/library/think/Controller.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/models/Order.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/src/Serializer.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/tests/ExamplesTest.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/tests/BuildPathsTest.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/tests/ItemsTest.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/tests/RefTest.php",
+		"/G/konger/mytp5/public/swagger-ui/dist/index.html",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/controllers/User.php",
+		"/G/konger/mytp5/public/swagger/swagger.json",
+		"/G/konger/myphp/public/swagger-ui/dist/index.html",
+		"/G/konger/mytp5/config/session.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore.swagger.io/controllers/UserController.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore.swagger.io/swagger-v3.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/misc/misc-api.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/security.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/api.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/openapi-spec/api.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/using-refs/Product.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/models/Tag.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore-3.0/controllers/Store.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/example-object/example-object.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore.swagger.io/ApiResponse.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/Examples/petstore.swagger.io/tags.php",
+		"/G/konger/myphp/app/api/controller/Index.php",
+		"/G/konger/myphp/app/api/controller/Store.php",
+		"/G/konger/myphp/app/api/controller/Pet.php",
+		"/G/konger/mytp5/vendor/zircote/swagger-php/src/Logger.php",
+		"/G/konger/myphp/app/home/controller/Index.php",
+		"/G/konger/mytp5/application/news/controller/Article.php",
+		"/G/konger/mytp5/thinkphp/README.md",
+		"/G/konger/mytp5/thinkphp/composer.json",
+		"/G/konger/mytp5/application/admin/controller/Login.php",
+		"/G/konger/myphp/app/home/controller/Article.php",
+		"/G/konger/mytp5/think",
+		"/G/konger/mytp5/application/company/sys.php",
+		"/G/konger/mytp5/vendor/autoload.php",
+		"/G/konger/mytp5/config/queue.php",
+		"/G/konger/mytp5/config/template.php",
+		"/G/konger/mytp5/config/wechat.php",
+		"/G/konger/mytp5/route/demo.php",
+		"/G/konger/mytp5/application/admin/controller/Menu.php",
+		"/G/konger/mytp5/application/company/controller/User.php",
+		"/G/konger/mytp5/public/router.php",
+		"/G/konger/mytp5/application/company/controller/api/Push.php",
+		"/G/konger/mytp5/application/admin/view/menu/form.html",
+		"/G/konger/mytp5/application/admin/view/menu/index.html",
+		"/G/konger/mytp5/application/admin/view/main.html",
+		"/G/konger/mytp5/config/cookie.php",
+		"/G/konger/mytp5/application/company/view/user/index.html",
+		"/G/konger/mytp5/application/store/view/goods/index.html",
+		"/G/Index.php",
+		"/G/konger/mytp5/application/wechat/queue/WechatQueue.php",
+		"/G/konger/mytp5/application/wechat/service/FansService.php",
+		"/G/konger/mytp5/application/wechat/service/MediaService.php",
+		"/G/konger/mytp5/application/wechat/service/WechatService.php",
+		"/G/konger/mytp5/application/wechat/sys.php",
+		"/G/konger/mytp5/application/wechat/controller/api/Push.php",
+		"/G/konger/mytp5/application/wechat/controller/api/Js.php",
+		"/G/konger/mytp5/application/wechat/controller/api/Review.php",
+		"/G/konger/mytp5/application/wechat/controller/api/Tools.php",
+		"/G/konger/mytp5/application/wechat/controller/Index.php",
+		"/G/konger/mytp5/application/wechat/controller/Config.php",
+		"/G/konger/mytp5/application/wechat/controller/Fans.php"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/G/konger/myphp/wwwtest/study/redis/docker-compose.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1933,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								870,
+								870
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 290.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/G/konger/mytp5/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 878,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								687,
+								687
+							]
+						],
+						"settings":
+						{
+							"SL.62.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/G/konger/mytp5/app/model/ImUser.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								130,
+								130
+							]
+						],
+						"settings":
+						{
+							"SL.48.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/G/konger/mytp5/app/controller/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								469,
+								469
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.49.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/G/konger/mytp5/app/middleware.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"SL.58.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/G/konger/mytp5/app/http/CrossDomain.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								118
+							]
+						],
+						"settings":
+						{
+							"SL.63.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/G/konger/vue/NIM_Web_Demo_H5-master/src/regist.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2283,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2067,
+								2073
+							]
+						],
+						"settings":
+						{
+							"SL.56.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/G/konger/vue/NIM_Web_Demo_H5-master/src/configs/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								891,
+								891
+							]
+						],
+						"settings":
+						{
+							"SL.57.region_keys":
+							[
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/E/TSBrowserDownloads/php 2.0/demoServerAPI.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								415
+							]
+						],
+						"settings":
+						{
+							"SL.53.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/G/konger/mytp5/app/helper/ServerAPI.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 42504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"SL.64.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/G/konger/mytp5/app/BaseController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1106,
+								1106
+							]
+						],
+						"settings":
+						{
+							"SL.52.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 450.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/G/konger/mytp5/route/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								731,
+								731
+							]
+						],
+						"settings":
+						{
+							"SL.51.region_keys":
+							[
+							],
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 109.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 109.0
+	},
+	"pinned_build_system": "Packages/User/php.sublime-build",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false,
+			"restore_index":
+			{
+				"15":
+				{
+					"group": 0,
+					"index": 0
+				},
+				"25":
+				{
+					"group": 0,
+					"index": 2
+				},
+				"57":
+				{
+					"group": 0,
+					"index": 1
+				}
+			},
+			"restore_layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			}
+		}
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 165.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

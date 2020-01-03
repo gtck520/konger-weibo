@@ -1,3 +1,44 @@
 {
-  "name":"gtck520/konger-weibo"
+    "name":"gtck520/konger-weibo",
+    "description": "the new thinkphp project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "konger",
+            "email": "496317580@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "topthink/framework": "^6.0.0",
+        "topthink/think-orm": "^2.0",
+        "workerman/gateway-worker": "^3.0",
+        "workerman/mysql": "^1.0",
+        "overtrue/wechat": "~4.0",
+        "workerman/gatewayclient": "^3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace":"^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "application"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "extra": {
+        "think-path": "thinkphp"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php think service:discover",
+            "@php think vendor:publish"
+        ]
+    }
 }
