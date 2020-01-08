@@ -11,11 +11,7 @@
     "require": {
         "php": ">=7.1.0",
         "topthink/framework": "^6.0.0",
-        "topthink/think-orm": "^2.0",
-        "workerman/gateway-worker": "^3.0",
-        "workerman/mysql": "^1.0",
-        "overtrue/wechat": "~4.0",
-        "workerman/gatewayclient": "^3.0"
+        "topthink/think-orm": "^2.0"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

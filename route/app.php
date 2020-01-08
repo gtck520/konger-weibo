@@ -14,4 +14,5 @@ Route::get('think', function () {
     return 'hello,ThinkPHP6!';
 });
 
-Route::get('hello/:name', 'index/hello');
+Route::post('user/login', 'user/login');
+Route::post('user/email', 'user/email');

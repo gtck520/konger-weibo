@@ -22,13 +22,13 @@ return [
             // 数据库类型
             'type'              => Env::get('database.type', 'mysql'),
             // 服务器地址
-            'hostname'          => Env::get('database.hostname', '127.0.0.1'),
+            'hostname'          => Env::get('database.hostname', '121.43.197.245'),
             // 数据库名
-            'database'          => Env::get('database.database', 'mytp5'),
+            'database'          => Env::get('database.database', 'blogsql'),
             // 用户名
-            'username'          => Env::get('database.username', 'root'),
+            'username'          => Env::get('database.username', 'blogsql'),
             // 密码
-            'password'          => Env::get('database.password', '123456'),
+            'password'          => Env::get('database.password', 'NHWnf37YknPCKmm2'),
             // 端口
             'hostport'          => Env::get('database.hostport', '3306'),
             // 数据库连接参数

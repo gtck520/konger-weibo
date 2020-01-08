@@ -3,9 +3,9 @@ namespace app\model;
 
 use think\Model;
 
-class ImUser extends Model
+class WpUser extends Model
 {
 	// 设置当前模型对应的完整数据表名称
-    protected $table = 'im_user';
+    protected $table = 'wp_users';
 
 }
