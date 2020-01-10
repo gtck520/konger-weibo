@@ -6,5 +6,7 @@ return [
     'host'=>'smtp.163.com', //smtp服务器地址
     'port'=>'465',//端口号
     'username'=>'chenkang52000@163.com',//发送邮箱
-    'password'=>'3344520.ck'//密码
+    'password'=>'3344520.ck',//密码
+    'interval'=>60,//验证码发送间隔时间 单位（秒）
+    'expire'=>1800//验证码过期时间 单位（秒）
 ];

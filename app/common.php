@@ -1,4 +1,11 @@
 <?php
+define( 'MINUTE_IN_SECONDS', 60 );
+define( 'HOUR_IN_SECONDS', 60 * MINUTE_IN_SECONDS );
+define( 'DAY_IN_SECONDS', 24 * HOUR_IN_SECONDS );
+define( 'WEEK_IN_SECONDS', 7 * DAY_IN_SECONDS );
+define( 'MONTH_IN_SECONDS', 30 * DAY_IN_SECONDS );
+define( 'YEAR_IN_SECONDS', 365 * DAY_IN_SECONDS );
+Loader::import('my\Test', EXTEND_PATH);
 // 应用公共文件
 /**
  * Notes:发送邮件
@@ -66,3 +73,120 @@ function send_mail($tomail, $name, $subject = '', $body = '', $attachment = null
   }
   return $code;
  }
+//wordpress cookie生成
+function is_ssl() {
+    if ( isset( $_SERVER['HTTPS'] ) ) {
+        if ( 'on' == strtolower( $_SERVER['HTTPS'] ) ) {
+            return true;
+        }
+
+        if ( '1' == $_SERVER['HTTPS'] ) {
+            return true;
+        }
+    } elseif ( isset( $_SERVER['SERVER_PORT'] ) && ( '443' == $_SERVER['SERVER_PORT'] ) ) {
+        return true;
+    }
+    return false;
+}
+function apply_filters( $tag, $value ) {
+    global $wp_filter, $wp_current_filter;
+
+    $args = func_get_args();
+
+    // Do 'all' actions first.
+    if ( isset( $wp_filter['all'] ) ) {
+        $wp_current_filter[] = $tag;
+        _wp_call_all_hook( $args );
+    }
+
+    if ( ! isset( $wp_filter[ $tag ] ) ) {
+        if ( isset( $wp_filter['all'] ) ) {
+            array_pop( $wp_current_filter );
+        }
+        return $value;
+    }
+
+    if ( ! isset( $wp_filter['all'] ) ) {
+        $wp_current_filter[] = $tag;
+    }
+
+    // Don't pass the tag name to WP_Hook.
+    array_shift( $args );
+
+    $filtered = $wp_filter[ $tag ]->apply_filters( $value, $args );
+
+    array_pop( $wp_current_filter );
+
+    return $filtered;
+}
+    function wp_set_auth_cookie( $user_id, $remember = false, $secure = '', $token = '' ) {
+        $WP_Session_Tokens = new app\helper\WpSessionTokens($user_id);
+        if ( $remember ) {
+            /**
+             * Filters the duration of the authentication cookie expiration period.
+             *
+             * @since 2.8.0
+             *
+             * @param int  $length   Duration of the expiration period in seconds.
+             * @param int  $user_id  User ID.
+             * @param bool $remember Whether to remember the user login. Default false.
+             */
+            $expiration = time() + apply_filters( 'auth_cookie_expiration', 14 * DAY_IN_SECONDS, $user_id, $remember );
+
+            /*
+             * Ensure the browser will continue to send the cookie after the expiration time is reached.
+             * Needed for the login grace period in wp_validate_auth_cookie().
+             */
+            $expire = $expiration + ( 12 * HOUR_IN_SECONDS );
+        } else {
+            /** This filter is documented in wp-includes/pluggable.php */
+            $expiration = time() + apply_filters( 'auth_cookie_expiration', 2 * DAY_IN_SECONDS, $user_id, $remember );
+            $expire     = 0;
+        }
+
+        if ( '' === $secure ) {
+            $secure = is_ssl();
+        }
+
+        // Front-end cookie is secure when the auth cookie is secure and the site's home URL is forced HTTPS.
+        $secure_logged_in_cookie = $secure && 'https' === parse_url( get_option( 'home' ), 0 );
+
+        /**
+         * Filters whether the connection is secure.
+         *
+         * @since 3.1.0
+         *
+         * @param bool $secure  Whether the connection is secure.
+         * @param int  $user_id User ID.
+         */
+        $secure = apply_filters( 'secure_auth_cookie', $secure, $user_id );
+
+        /**
+         * Filters whether to use a secure cookie when logged-in.
+         *
+         * @since 3.1.0
+         *
+         * @param bool $secure_logged_in_cookie Whether to use a secure cookie when logged-in.
+         * @param int  $user_id                 User ID.
+         * @param bool $secure                  Whether the connection is secure.
+         */
+        $secure_logged_in_cookie = apply_filters( 'secure_logged_in_cookie', $secure_logged_in_cookie, $user_id, $secure );
+
+        if ( $secure ) {
+            $scheme           = 'secure_auth';
+        } else {
+            $scheme           = 'auth';
+        }
+
+        if ( '' === $token ) {
+            $manager = $WP_Session_Tokens::get_instance( $user_id );
+            $token   = $manager->create( $expiration );
+        }
+
+        $auth_cookie      = wp_generate_auth_cookie( $user_id, $expiration, $scheme, $token );
+        $logged_in_cookie = wp_generate_auth_cookie( $user_id, $expiration, 'logged_in', $token );
+        $data['auth_cookie']=$auth_cookie;
+        $data['logged_in_cookie']=$logged_in_cookie;
+        return $data;
+
+    }

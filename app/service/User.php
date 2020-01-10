@@ -37,5 +37,4 @@ class User
         return $info;
     }
 
-
 }

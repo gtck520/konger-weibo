@@ -19,5 +19,6 @@ class EmailSender
         $content='您的验证码为：'.$code.',请于30分钟内验证。';//邮件内容
         //调用方法发送邮件
         send_mail($toemail,$name,$subject,$content);
+        return $code;
     }
 }

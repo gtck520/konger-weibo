@@ -15,4 +15,5 @@ Route::get('think', function () {
 });
 
 Route::post('user/login', 'user/login');
+Route::post('user/register', 'user/register');
 Route::post('user/email', 'user/email');
