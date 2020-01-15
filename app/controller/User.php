@@ -18,20 +18,8 @@ class User extends BaseController
         $wp_user=WpUserModel::whereOr($where)->find();
         $check = $hasher->CheckPassword( $password, $wp_user['user_pass'] );
         if($check){
-            //兼容WordPress
-            $wordpress_url="http://121.43.197.245:81";
-            $cookiehash=md5($wordpress_url);
-            $cookiepath=preg_replace( '|https?://[^/]+|i', '', $wordpress_url . '/' );
-
-            $credentials=array();
-            $credentials['remember']=false;
-            $secure_cookie = is_ssl();
-            $secure_cookie = apply_filters( 'secure_signon_cookie', $secure_cookie, $credentials );
-            wp_set_auth_cookie( $wp_user['ID'], $credentials['remember'], $secure_cookie );
-
-
             $token=UserService::getJwtToken($wp_user['ID'],$wp_user['user_email']);
-            $backuser=['userID'=>$wp_user['ID'],'user_email'=>$wp_user['user_email'],'token'=>$token,'cookiehash'=>$cookiehash,'cookiepath'=>$cookiepath];
+            $backuser=['userID'=>$wp_user['ID'],'user_email'=>$wp_user['user_email'],'token'=>$token];
             $data=['res'=>'200','msg'=>'成功','data'=>$backuser];
             echo json_encode($data);
         }else{
